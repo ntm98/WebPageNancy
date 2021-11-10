@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illustrations Gallery</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+</head>
+
+
+
+<body>
+    <h1>Illustrations and Photos Gallery </h1>
+    <div class="container-fluid">
+        <div class="row mt-4">
+            <div class="item col-sm-6 col-md-4 mb-3">
+                <a href="flor.jpg" class="fancybox" data-fancy="gallery1"><img src="flor.jpg" width="100%" height="100%" alt="" /></a>
+
+            </div>
+
+            <div class="item col-sm-6 col-md-4 mb-3">
+                <a href="plant.jpg" class="fancybox" data-fancy="gallery1"><img src="plant.jpg" width="100%" height="100%"></a>
+                <div class="description">
+                </div>
+            </div>
+
+
+            <div class="item col-sm-6 col-md-4 mb-3">
+                <a href="logo-bird.png" class="fancybox" data-fancy="gallery1"><img src="logo-bird.png" width="100%" height="100%" alt="" /></a>
+                <div class="description"> </div>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+                <a href="Animation.gif" class="fancybox" data-fancy="gallery1"><img src="Animation.gif" width="100%" height="100%" alt="" /></a>
+                <div class="description"> </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<style type="text/css">
+    .item {
+        transition: .5s ease-in-out;
+    }
+    
+    .item:hover {
+        filter: brightness(80%);
+    }
+</style>
+
+</html>
